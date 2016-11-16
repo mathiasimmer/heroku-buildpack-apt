@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-if [ -f $1/Aptfile ]; then
+#if [ -f $1/Aptfile ]; then
   echo "Aptfile ATK heroku-buildpack-apt" && exit 0
-else
-  echo "Aptfile not detected" && exit 1
-fi
+#else
+#  echo "Aptfile not detected" && exit 1
+#fi
